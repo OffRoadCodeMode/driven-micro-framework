@@ -6,7 +6,7 @@ A production-ready TypeScript framework for building domain-driven microservices
 
 **What It Provides**: Clean, reusable interfaces and components that abstract sophisticated patterns into a type-safe foundation.
 
-**Getting Started**: Use the [Driven Micro Domain Starter](https://github.com/your-org/driven-micro-domain) repository as your starting template—it demonstrates how to build microservices with this framework.
+**Getting Started**: Use the [Driven Micro Domain Starter](https://github.com/OffRoadCodeMode/driven-micro-domain) repository as your starting template—it demonstrates how to build microservices with this framework.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
@@ -26,7 +26,7 @@ A production-ready TypeScript framework for building domain-driven microservices
 
 ## Related Projects
 
-- **[Driven Micro Domain Starter](https://github.com/your-org/driven-micro-domain)** - Complete working implementation and starter template
+- **[Driven Micro Domain Starter](https://github.com/OffRoadCodeMode/driven-micro-domain)** - Complete working implementation and starter template
 - **Examples Repository** - Real-world usage examples and patterns
 
 ## Architecture Overview
