@@ -1,0 +1,40 @@
+{
+  "name": "driven-micro",
+  "version": "1.0.0",
+  "description": "A TypeScript framework for building domain-driven microservices with CQRS and Event Sourcing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [
+    "typescript",
+    "microservices",
+    "ddd",
+    "cqrs",
+    "event-sourcing",
+    "framework"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2",
+    "aws-sdk": "^2.1691.0",
+    "hono": "^4.0.0",
+    "@hono/node-server": "^1.8.0",
+    "@aws-lambda-powertools/logger": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.130",
+    "typescript": "^5.2.2"
+  }
+}
