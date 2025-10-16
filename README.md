@@ -1,8 +1,8 @@
 # Driven Micro Framework
 
-A production-ready TypeScript framework for building domain-driven microservices with CQRS and Event Sourcing patterns. 
+A production-ready TypeScript framework for building domain-driven microservices implementing a custom architecture with internal message bus, event/command flow and exposure of many useful interfaces for use in concrete implementations of the framework. This is the culmination of perfecting my preferred architectural approach.
 
-**Why I Built This**: After repeatedly rewriting the same architectural code for each new microservice, I created this framework to handle the core application architecture and message bus flow once and for all.
+**Why I Built This**: After repeatedly rewriting the same architectural code for each new microservice, I created this framework to handle the core application architecture and message bus flow once and for all. It will be expanded soon to implement full event sourcing.
 
 **What It Provides**: Clean, reusable interfaces and components that abstract sophisticated patterns into a type-safe foundation.
 
