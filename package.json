@@ -13,8 +13,14 @@
   },
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
   },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "typescript",
     "microservices",
@@ -23,7 +29,15 @@
     "event-sourcing",
     "framework"
   ],
-  "author": "",
+  "author": "OffRoadCodeMode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OffRoadCodeMode/driven-micro-framework.git"
+  },
+  "homepage": "https://github.com/OffRoadCodeMode/driven-micro-framework#readme",
+  "bugs": {
+    "url": "https://github.com/OffRoadCodeMode/driven-micro-framework/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "inversify": "^6.0.2",
