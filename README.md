@@ -355,4 +355,4 @@ This framework abstracts and generalizes the sophisticated architectural pattern
 - **Unit of Work Pattern** for transaction management
 - **Dependency Injection** with interface-based abstractions
 
-**Built with ❤️ for domain-driven microservice development**
+Framework heavily inspired by "[Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices](https://www.amazon.co.uk/Enterprise-Architecture-Patterns-Python-Adapters/dp/1492052205)" by Harry Percival (Author), Bob Gregory (Author).
